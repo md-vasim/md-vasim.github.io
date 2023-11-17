@@ -1,0 +1,84 @@
+@font-face 
+    { 
+    font-family: "Adobe Clean";  
+    src: url("./AdobeCleanRegular.otf")format("opentype"); 
+    }
+
+body {
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Fira Code', monospace; */
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Adobe Clean'، 'Open Sans', sans-serif;
+}
+
+#container {
+    margin-top: 6rem;
+}
+
+#index-container {
+    margin-top: 4rem;
+}
+
+.bg-img {
+    background-image: url('bg-img3.jpg');
+    width: 100%;
+    height: auto;
+    /* max-height: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+
+
+#navbar {
+    /* background-color: rgb(219, 217, 212); */
+}
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+.hidden {
+    opacity: 0;
+}
+
+.console-container {
+
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Neuton', serif;
+    font-size: 5vw;
+    /* text-align:center; */
+    /* height:5vh;
+  width: 50vw;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto; */
+}
+
+.console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    /* left: 10px; */
+}
+
+#quotes{
+    /* font-family: 'Neuton', serif; */
+    font-family: 'Adobe Clean', 'Open Sans', sans-serif;
+}
+
+.icons-span{
+    display: inline-block;
+    /* margin-left: 2px; */
+    padding-right: 15px;
+}
+.icons-img{
+    width: 2em;
+}
