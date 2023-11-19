@@ -28,8 +28,9 @@
             font-family: "Adobe Clean";
             src: url("static/AdobeCleanRegular.otf")format("opentype");
         }
-        body{
-            font-family: Adobe Clean,'K2D', sans-serif;
+
+        body {
+            font-family: Adobe Clean, 'K2D', sans-serif;
         }
     </style>
 </head>
@@ -38,12 +39,48 @@
 
     <!-- Navbar -->
     <!-- background-color: #3A8DEF; -->
-    <nav class="navbar navbar-expand-lg" style="font-family: 'EB Garamond', serif; ">
+    <nav class="navbar navbar-expand-lg" >
         <div class="container-fluid">
             <a class="navbar-brand text-dark" href="/">
-                <h3>Portfolio</h3>
+                <h3><strong>PORTFOLIO</strong></h3>
             </a>
-            
+            <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#contact">CONTACT</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#resume">RESUME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MORE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">COMING SOON</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">ADMIN</a></li>
+                            </ul>
+                        </li>
+    
+                    </ul>
+                
+            </div>
         </div>
     </nav>
     <!-- Navbar end -->
@@ -79,7 +116,7 @@
                 </div>
                 <!-- Quote end -->
                 <div class="col-4 mx-auto">
-                    <a href="#about"><button class="btn btn-outline-light text-dark rounded-3 shadow-sm border border-1"
+                    <a href="#about"><button class="btn btn-outline-light text-dark rounded-3 border border-1"
                             type="button">About me</button></a>
                 </div>
             </div>
@@ -91,7 +128,7 @@
     </div>
 
     <!-- ======= About Section ======= -->
-    <div id="about" class="container my-5 bg-info bg-opacity-10 rounded-5 shadow-sm" data-aos="fade-up">
+    <div id="about" class="container my-5 bg-info bg-opacity-10 rounded-5 shadow-sm">
 
         <div class="section-title">
             <!-- <h2>About</h2> -->
