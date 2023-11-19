@@ -1,3 +1,4 @@
+.gitignore
 portfolio-detaSpace
 .env
 app/__pycache__

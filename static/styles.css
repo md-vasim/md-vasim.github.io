@@ -1,7 +1,7 @@
 @font-face 
     { 
     font-family: "Adobe Clean";  
-    src: url("./AdobeCleanRegular.otf")format("opentype"); 
+    src: url("static/AdobeCleanRegular.otf")format("opentype"); 
     }
 
 body {
